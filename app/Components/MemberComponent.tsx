@@ -35,7 +35,7 @@ function MemberComponent() {
           />
         </div>
         <div className='w-full flex items-center justify-center lg:mt-5'>
-          <InfosBtn title={"Decouvrir plus"}/>
+          <InfosBtn  link="" title={"Decouvrir plus"}/>
         </div>
       </div>
     </div>

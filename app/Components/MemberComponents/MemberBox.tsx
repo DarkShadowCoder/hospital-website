@@ -1,7 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-function MemberBox(props) {
+interface ActualityBoxProps {
+  image: string;
+  nom: string;
+  specialite: string;
+  contact: string;
+  mail: string;
+}
+function MemberBox(props : ActualityBoxProps) {
   return (
     <button 
       className='flex flex-col text-left cursor-pointer justify-between items-center md:w-[32%] lg:max-w-[320px] sm:min-w-[300px] w-full md:h-auto h-[400px] bg-neutral-200 rounded-[20px] pb-2'>

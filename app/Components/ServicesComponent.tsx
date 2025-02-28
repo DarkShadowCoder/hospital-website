@@ -48,7 +48,7 @@ function ServicesComponent() {
           />
         </div>
         <div className='w-full flex items-center justify-center mt-10'>
-          <InfosBtn title={"Tous les services"}/>
+          <InfosBtn  link="" title={"Tous les services"}/>
         </div>
       </div>
     </div>

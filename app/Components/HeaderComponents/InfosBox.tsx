@@ -1,7 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 
-function InfosBox(props) {
+interface InfosBoxProps {
+  icon: string;
+  title: string;
+  value: string;
+}
+
+function InfosBox(props: InfosBoxProps) {
   return (
     <div className='w-1/3 md:px-3 md:py-3 py-2 flex flex-col items-center gap-2 rounded-md md:m-4 m-2 md:min-w-[200px] md:min-h-[140px] min-w-[100px] min-h-[90px] text-center bg-white shadow-md shadow-zinc-800'>
       <Image

@@ -1,6 +1,9 @@
 import React from 'react'
 
-function SectionTitle(props) {
+interface TitleProps {
+  title: string;
+}
+function SectionTitle(props: TitleProps) {
   return (
     <div className='w-auto h-auto p-2 md:m-10 inline'>
       <div className='bg-[#D3D63F] max-w-[700px] z-0 h-[12px]'></div>

@@ -2,7 +2,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function ActualityBox(props) {
+interface ActualityBoxProps {
+  link: string;
+  image: string;
+  badge: string;
+  title: string;
+  date: string;
+}
+
+function ActualityBox(props: ActualityBoxProps) {
   return (
     <Link 
     href={props.link}

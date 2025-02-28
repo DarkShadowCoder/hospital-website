@@ -75,7 +75,7 @@ function About() {
           <div className='flex flex-row justify-between items-center w-full'>
             <SectionTitle title={"Nos Actualités"} />
             <div className='lg:flex hidden items-start justify-start h-full px-8'>
-              <InfosBtn title={"Toutes les Actualités"}/>
+              <InfosBtn  link="" title={"Toutes les Actualités"}/>
             </div>
           </div>
             

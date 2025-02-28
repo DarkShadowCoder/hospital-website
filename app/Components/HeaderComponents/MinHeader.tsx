@@ -4,7 +4,12 @@ import React, { useState } from 'react'
 import HiddenNavBar from './HiddenNavBar';
 import Link from 'next/link';
 
-function MinHeader(props) {
+interface MinHeaderProps {
+  title: string;
+  description: string;
+}
+
+function MinHeader(props: MinHeaderProps) {
   const [hidden, setHidden] = useState(false)
   return (
     <div className='h-[350px] w-auto p-2 bg-white mb-10'>

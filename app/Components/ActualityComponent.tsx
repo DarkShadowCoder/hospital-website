@@ -35,7 +35,7 @@ function ActualityComponent() {
           />
         </div>
         <div className='w-full flex items-center justify-center mt-10'>
-          <InfosBtn title={"Toutes les Actualités"}/>
+          <InfosBtn  link="" title={"Toutes les Actualités"}/>
         </div>
       </div>
     </div>

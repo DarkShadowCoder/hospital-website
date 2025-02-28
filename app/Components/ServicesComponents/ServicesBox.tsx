@@ -1,7 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-function ServicesBox(props) {
+
+interface ActualityBoxProps {
+    icon: string;
+    title: string;
+    description: string;
+    pair: boolean;
+  }
+function ServicesBox(props : ActualityBoxProps) {
   return (
     (props.pair&&
     <div className='text-left flex-col sm:w-full min-w-[250px] lg:min-h-[175px] lg:w-96 p-6 rounded-md items-start justify-between bg-white shadow-sm shadow-gray-800'>
