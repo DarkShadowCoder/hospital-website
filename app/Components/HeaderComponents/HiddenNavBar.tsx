@@ -1,12 +1,9 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 
 function HiddenNavBar() {
-  const router = useRouter()
-  const [back, setBack] = useState(false);
   return (
     <div className='flex flex-col w-screen h-screen z-50 fixed top-0 left-0 backdrop-blur-md bg-black/40 justify-between items-center text-center text-white text-2xl font-extrabold px-8 py-10'>
         <div className='w-full h-auto items-start justify-center '>
