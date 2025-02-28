@@ -2,7 +2,6 @@ import React from 'react'
 import MinHeader from '../../Components/HeaderComponents/MinHeader'
 import SectionTitle from '../../Components/SectionTitle'
 import MemberBox from '../../Components/MemberComponents/MemberBox'
-import AboutUsComponent from '../../Components/AboutUsComponent'
 import Footer from '../../Components/Footer'
 import ContactComponent from '../../Components/ContactComponent'
 
