@@ -15,7 +15,7 @@ function ContactComponent() {
       />
       <div className='absolute z-0 md:z-30 top-0 left-0 flex flex-col items-center w-full h-full'>
         <div className="flex flex-col gap-8 justify-center items-center h-full w-full md:p-10">
-          <h1 className='text-3xl font-bold text-white text-center'>
+          <h1 className='lg:text-3xl text-2xl font-extrabold text-white text-center'>
             Pour Tout Besoin d&apos;informations !
           </h1>
           <form 
@@ -23,46 +23,46 @@ function ContactComponent() {
           action=""
           >
             <div className='md:w-1/2 w-full h-full flex flex-col items-center md:items-start'>
-              <h1 className='text-black text-2xl font-bold mb-6'>Formulaire de Contact</h1>
+              <h1 className='text-black md:text-2xl text-xl font-bold mb-6'>Formulaire de Contact</h1>
               <div className='flex flex-col gap-2 w-full h-auto py-2'>
-                <h1 className='text-white font-semibold text-lg'>Prenom</h1>
+                <h1 className='text-white font-semibold md:text-lg text-md'>Prenom</h1>
                 <input 
                 type='text' 
                 placeholder='Votre prénom'
-                className='w-full h-10 rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
+                className='w-full h-10 text-sm rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
                 />
               </div>
               <div className='flex flex-col gap-2 w-full h-auto py-2'>
-                <h1 className='text-white font-semibold text-lg'>Nom</h1>
+                <h1 className='text-white font-semibold md:text-lg text-md'>Nom</h1>
                 <input 
                 type='text' 
                 placeholder='Votre Nom'
-                className='w-full h-10 rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
+                className='w-full h-10 text-sm rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
                 />
               </div>
               <div className='flex flex-col gap-2 w-full h-auto py-2'>
-                <h1 className='text-white font-semibold text-lg'>Téléphone</h1>
+                <h1 className='text-white font-semibold md:text-lg text-md'>Téléphone</h1>
                 <input 
                 type='number' 
                 placeholder='Votre Telephone'
-                className='w-full h-10 rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
+                className='w-full h-10 text-sm rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
                 />
               </div>
               <div className='flex flex-col gap-2 w-full h-auto py-2'>
-                <h1 className='text-white font-semibold text-lg'>Email</h1>
+                <h1 className='text-white font-semibold md:text-lg text-md'>Email</h1>
                 <input 
                 type='email' 
                 placeholder='Votre Adresse mail'
-                className='w-full h-10 rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
+                className='w-full h-10 text-sm rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
                 />
               </div>
 
               <div className='flex flex-col gap-2 w-full h-auto py-2'>
-                <h1 className='text-white font-semibold text-lg'>Message</h1>
+                <h1 className='text-white font-semibold md:text-lg text-md'>Message</h1>
                 <input 
                 type='text' 
                 placeholder='Adressez-vous au personnel ici !! '
-                className='w-full h-10 rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
+                className='w-full h-10 text-sm rounded-md shadow-sm p-2 outline-none hover:border-b-4 hover:border-b-[#047424] hover:transition duration-300 text-black/65 text-md font-semibold bg-transparent/45'
                 />
               </div>
 

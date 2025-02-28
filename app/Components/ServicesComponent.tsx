@@ -6,14 +6,14 @@ import InfosBtn from './InfosBtn'
 
 function ServicesComponent() {
   return (
-    <div className='z-0 md:flex block items-center justify-center w-screen h-screen bg-white md:mt-20 m-0'>
+    <div className='z-0 md:flex block items-center justify-center w-screen h-auto bg-white md:mt-20 m-0'>
       <div className='max-w-screen-2xl w-full h-full py-16 px-4'>
         <div className='h-auto lg:w-[60%] flex-col gap-4'>
           <SectionTitle title={"Nos Services Hospitaliers"} />
           <h1 className='font-medium md:text-[18px] text-[15px] text-[#D3D63F] md:-mt-8 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos autem repellendus impedit, aliquid temporibus! Voluptatibus beatae aut ab earum nesciunt, mollitia architecto similique, nemo dolorum eum vero fuga cum?</h1>
         </div>
-        <div className='w-full flex lg:flex-row justify-between items-center'>
-          <div className='w-full lg:min-w-[700px] lg:h-auto flex gap-4 md:flex-nowrap items-center flex-wrap lg:flex-wrap pt-8 md:pt-'>
+        <div className='w-auto flex lg:flex-row justify-between items-center'>
+          <div className='w-auto lg:min-w-[700px] lg:h-auto flex gap-4 md:flex-nowrap items-center flex-wrap lg:flex-wrap pt-8 md:pt-'>
             <ServicesBox
             icon={"/placeholder1.png"}
             pair={true}

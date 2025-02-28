@@ -12,7 +12,7 @@ function AboutUsComponent() {
             <h1 className='lg:text-[45px] text-2xl lg:text-left lg:leading-[45px] text-center text-[#047424] font-bold lg:max-w-[500px] h-[100px]'>
               Hopital Regional Annexe de Foumban
             </h1>
-            <p className='w-full text-black font-medium lg:text-[18px] text-[14px] text-justify'>
+            <p className='w-full text-black font-medium lg:text-[18px] text-[16px] text-justify'>
               Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Neque voluptatem sint, ipsam laudantium iure id! Eaque, voluptatem nemo harum praesentium eos ipsa ipsam odio?
               Doloribus praesentium laudantium at veritatis porro.

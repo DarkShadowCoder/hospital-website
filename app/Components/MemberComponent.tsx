@@ -5,7 +5,7 @@ import InfosBtn from './InfosBtn'
 
 function MemberComponent() {
   return (
-    <div className='md:flex relative z-0 block items-center justify-center bg-white h-screen w-screen'>
+    <div className='md:flex relative z-0 block items-center justify-center bg-white h-auto w-screen'>
       <div className='max-w-screen-2xl w-full h-auto py-8 px-4'>
         <div className='h-auto lg:w-1/2 flex-col gap-4'>
           <SectionTitle title={"Decouvrez nos médecins"} />
