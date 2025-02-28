@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import HiddenNavBar from './HiddenNavBar';
 
-function Navbar(props) {
+function Navbar() {
   const [hidden, setHidden] = useState(false)
   return (
     <div className='z-20 fixed w-screen md:h-[100px] h-[65px] p-4 flex items-center justify-center bg-[#047424]'>
@@ -17,13 +17,13 @@ function Navbar(props) {
         className='md:w-[75px] md:h-[75px] h-[25px] w-[25px]'
         objectFit='contain'
         />
-        <ul className='md:flex items-center gap-8 hidden'>
+        <div className='md:flex items-center gap-8 hidden'>
           <Link href="/" className='text-pretty font-semibold text-[22px] text-white hover:text-[#D2D63F] transition ease-linear'>Accueil</Link>
           <Link href="/pages/Services" className='text-pretty font-semibold text-[22px] text-white hover:text-[#D2D63F] transition ease-linear'>Services</Link>
           <Link href="/pages/Actuality" className='text-pretty font-semibold text-[22px] text-white hover:text-[#D2D63F] transition ease-linear'>Actualités</Link>
           <Link href="/pages/Membres" className='text-pretty font-semibold text-[22px] text-white hover:text-[#D2D63F] transition ease-linear'>Medecins</Link>
           <Link href="/pages/About" className='text-pretty font-semibold text-[22px] text-white hover:text-[#D2D63F] transition ease-linear'>A propos</Link>
-        </ul>
+        </div>
 
         <Link 
         href='/pages/Contact'
