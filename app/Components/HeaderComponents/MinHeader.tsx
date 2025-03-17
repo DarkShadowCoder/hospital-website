@@ -22,7 +22,7 @@ function MinHeader(props: MinHeaderProps) {
         height={500}
         className='w-full h-full z-0 rounded-md'
         />
-        <div className='z-10 absolute w-full top-0 p-4 flex-col items-center max-w-screen-2xl justify-between px-8'>
+        <div className='z-10 absolute w-full top-0 p-4 flex-col items-center max-w-screen-xl justify-between px-8'>
           <div className='flex items-center justify-between w-full h-[100px]'>
             <Image 
             src={"/logo-img.png"}
