@@ -14,12 +14,12 @@ function ContactComponent() {
       className='w-full h-full'
       />
       <div className='absolute z-0 md:z-30 top-0 left-0 flex flex-col items-center w-full h-full'>
-        <div className="flex flex-col gap-8 justify-center items-center h-full w-full md:p-10">
+        <div className="flex flex-col gap-8 justify-center items-center h-full w-full md:p-6 max-w-screen-xl">
           <h1 className='lg:text-3xl text-2xl font-extrabold text-white text-center'>
             Pour Tout Besoin d&apos;informations !
           </h1>
           <form 
-          className='flex md:flex-row w-full flex-col justify-between md:rounded-xl backdrop-blur-sm bg-white/5 text-left p-5 gap-8 max-w-screen-2xl'
+          className='flex md:flex-row w-full flex-col justify-between md:rounded-xl backdrop-blur-sm bg-white/5 text-left p-5 gap-8 max-w-screen-xl'
           action=""
           >
             <div className='md:w-1/2 w-full h-full flex flex-col items-center md:items-start'>
