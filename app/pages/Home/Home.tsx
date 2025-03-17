@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import MaxHeader from '../../Components/HeaderComponents/MaxHeader'
 import AboutUsComponent from '../../Components/AboutUsComponent'
@@ -8,18 +9,19 @@ import ActualityComponent from '../../Components/ActualityComponent'
 import MemberComponent from '../../Components/MemberComponent'
 import ContactComponent from '../../Components/ContactComponent'
 import Footer from '../../Components/Footer'
+import AnimatedDiv from '@/app/Components/Animation/AnimatedDiv'
 
 function Home() {
   return (
     <>
-      <MaxHeader />
+      <AnimatedDiv><MaxHeader /></AnimatedDiv>
       <div className='flex items-center justify-center w-screen bg-white mt-8'><AboutUsComponent /></div> 
-      <MessageComponent />
-      <ServicesComponent />
-      <SpecialitiesComponent />
-      <ActualityComponent />
-      <MemberComponent />
-      <ContactComponent />
+      <AnimatedDiv><MessageComponent /></AnimatedDiv>
+      <AnimatedDiv><ServicesComponent /></AnimatedDiv>
+      <AnimatedDiv><SpecialitiesComponent /></AnimatedDiv>
+      <AnimatedDiv><ActualityComponent /></AnimatedDiv>
+      <AnimatedDiv><MemberComponent /></AnimatedDiv>
+      <AnimatedDiv><ContactComponent /></AnimatedDiv>
       <Footer />
     </>
   )
