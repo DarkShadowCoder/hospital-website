@@ -18,7 +18,7 @@ function MaxHeader() {
         className='w-full h-full z-20'
         />
         <div className='absolute top-0 left-0 z-30 bg-black/45 h-full w-full flex flex-col items-center justify-between'>
-          <h1 className='text-white sm:text-[35px] text-[25px] lg:text-[68px] pt-[100px] lg:pt-[250px] text-center max-w-screen-2xl font-extrabold  '>
+          <h1 className='text-white sm:text-[35px] text-[25px] lg:text-[68px] pt-[100px] lg:pt-[250px] text-center max-w-screen-xl font-extrabold  '>
             BIENVENUE A L&apos;HOPITAL REGIONAL ANNEXE DE FOUMBAN
           </h1>
           <p className='text-white/75 lg:text-[24px] sm:text-[18px] text-[14px] text-justify w-5/6 max-w-screen-xl'>
@@ -39,7 +39,7 @@ function MaxHeader() {
               </a>
             </div>
           </div>
-          <div className='flex z-50 relative lg:top-16 top-[50] w-full lg:max-w-screen-2xl'>
+          <div className='flex z-50 relative lg:top-16 top-[50] w-full lg:max-w-screen-xl'>
             <InfosBox
             icon={"/sharp-call.png"} 
             title={"Contact"}
