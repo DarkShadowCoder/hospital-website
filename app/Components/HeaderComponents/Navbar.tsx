@@ -8,7 +8,7 @@ function Navbar() {
   const [hidden, setHidden] = useState(false)
   return (
     <div className='z-20 fixed w-screen md:h-[100px] h-[65px] p-4 flex items-center justify-center bg-[#047424]'>
-      <div className='flex items-center justify-between max-w-screen-2xl w-full'>
+      <div className='flex items-center justify-between max-w-screen-xl w-full'>
         <Image 
         src={"/logo-white.png"}
         width={75}
