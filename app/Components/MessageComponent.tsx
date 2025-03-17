@@ -4,7 +4,7 @@ import React from 'react'
 function MessageComponent() {
   return (
     <div className='flex z-0 items-center w-screen h-auto md:h-screen justify-center bg-neutral-300'>
-      <div className='max-w-screen-2xl h-full py-14 flex flex-col md:flex-row lg:items-end  items-center justify-center lg:justify-between gap-4 '>
+      <div className='max-w-screen-xl h-full py-14 flex flex-col md:flex-row lg:items-end  items-center justify-center lg:justify-between gap-4 '>
         <Image
         src={"/director.png"}
         alt='Directeur'
@@ -13,7 +13,7 @@ function MessageComponent() {
         className='md:w-[38%] w-[370] h-[400px] md:h-full z-0 lg:flex'
         objectFit='fill'
         />
-        <div className='flex flex-col gap-4 md:w-[55%] w-full h-full justify-end px-4 md:px-0'>
+        <div className='flex flex-col gap-4 md:w-[55%] w-full h-full justify-end px-4 md:px-0 xl:mt-10'>
           <div className='flex-col gap-2 text-justify px-2'>
             <Image src={"/quote-left-solid.png"}
             width={75}
