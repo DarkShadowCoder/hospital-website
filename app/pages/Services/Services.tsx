@@ -12,7 +12,7 @@ function Services() {
       description={"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."}
       />
       <div className='flex flex-col w-full items-center justify-center px-4 gap-8 pb-8 md:pb-10 bg-white'>
-        <div className='max-w-screen-2xl flex items-center'>
+        <div className='max-w-screen-xl flex items-center'>
           <SectionTitle title={"Nos Services"} />
         </div>
         <div className='grid md:grid-cols-3 xl:grid-cols-4 grid-rows-3 gap-4 '>
