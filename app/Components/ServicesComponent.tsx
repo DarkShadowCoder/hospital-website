@@ -7,7 +7,7 @@ import InfosBtn from './InfosBtn'
 function ServicesComponent() {
   return (
     <div className='z-0 md:flex block items-center justify-center w-screen h-auto bg-white md:mt-20 m-0'>
-      <div className='max-w-screen-2xl w-full h-full py-16 px-4'>
+      <div className='max-w-screen-xl w-full h-full py-16 px-4'>
         <div className='h-auto lg:w-[60%] flex-col gap-4'>
           <SectionTitle title={"Nos Services Hospitaliers"} />
           <h1 className='font-medium md:text-[18px] text-[15px] text-[#D3D63F] md:-mt-8 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos autem repellendus impedit, aliquid temporibus! Voluptatibus beatae aut ab earum nesciunt, mollitia architecto similique, nemo dolorum eum vero fuga cum?</h1>
