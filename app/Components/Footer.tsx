@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <div className='text-white w-full bg-[#047424] md:h-[300px] h-auto flex justify-center items-center pb-2 border-b-2 border-black'>
-      <div className='max-w-screen-2xl w-full md:p-8 xl:p-4 flex-col justify-between items-center'>
+      <div className='max-w-screen-xl w-full md:p-8 xl:p-4 flex-col justify-between items-center'>
         <div className='bg-white/20 backdrop-blur-sm md:rounded-xl w-full md:h-[200px] h-auto md:p-8 py-8 px-4 flex md:flex-row flex-col justify-between items-center'>
           <Image
           src={"/logo-white.png"}
@@ -54,7 +54,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className='max-w-screen-2xl w-full h-auto flex md:flex-row flex-col items-center pt-4 justify-between'>
+        <div className='max-w-screen-xl w-full h-auto flex md:flex-row flex-col items-center pt-4 justify-between'>
           <h1 className='text-[15px] text-center mb-3 md:mb-0'>Copyright © 2024 Gainde 2000 | Tous droits réservés</h1>
           <div className='flex gap-2 '>
             <a href="">
