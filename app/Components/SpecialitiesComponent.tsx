@@ -31,7 +31,7 @@ export function SpecialityBox(props: ActualityBoxProps){
 function SpecialitiesComponent() {
   return (
     <div className='lg:flex items-center justify-center bg-white w-screen h-auto'>
-      <div className='max-w-screen-2xl w-full h-auto py-8 px-4'>
+      <div className='max-w-screen-xl w-full h-auto py-8 px-4'>
         <div className='h-auto lg:w-1/2 flex-col gap-4'>
           <SectionTitle title={"Nos Specialités"} />
           <h1 className='font-medium text-md text-[#D3D63F] mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos autem repellendus impedit, aliquid temporibus! Voluptatibus beatae aut ab earum nesciunt, mollitia architecto similique, nemo dolorum eum vero fuga cum?</h1>
