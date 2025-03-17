@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import MinHeader from '../../Components/HeaderComponents/MinHeader'
 import AboutUsComponent from '../../Components/AboutUsComponent'
@@ -5,6 +6,7 @@ import Footer from '../../Components/Footer'
 import SectionTitle from '../../Components/SectionTitle'
 import ActualityBox from '../../Components/ActualityComponents/ActualityBox'
 import InfosBtn from '../../Components/InfosBtn'
+import AnimatedDiv from '@/app/Components/Animation/AnimatedDiv';
 
 function About() {
   return (
@@ -13,11 +15,13 @@ function About() {
       title={"A propos de nous"}
       description={"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."}
       />
-      <div className='md:flex w-full items-center md:-mt-56 justify-center bg-white'>
-        <AboutUsComponent />
-      </div>
+      <AnimatedDiv>
+        <div className='md:flex w-full items-center md:-mt-56 justify-center bg-white'>
+          <AboutUsComponent />
+        </div>
+      </AnimatedDiv>
       <div className='flex w-full items-center justify-center bg-white'>
-        <div className='text-left px-8 max-w-screen-2xl flex flex-col items-baseline justify-center w-full'>
+        <div className='text-left px-8 max-w-screen-xl flex flex-col items-baseline justify-center w-full'>
           <h1 className='text-black font-bold text-2xl my-4'>Historique et évolution</h1>
           <div className='text-black font-normal md:text-[18px] text-md my-4'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium labore architecto consectetur libero nam ipsa quis quos optio itaque esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, illum ab rerum voluptas enim quisquam. Culpa vitae neque veritatis. Magnam, nisi voluptate doloremque assumenda reiciendis perferendis rem eius ex omnis?
@@ -70,7 +74,7 @@ function About() {
         </div>
       </div>
       <div className='flex items-center justify-center bg-white'>
-        <div className='max-w-screen-2xl w-full h-auto py-8 px-4'>
+        <div className='max-w-screen-xl w-full h-auto py-8 px-4'>
           <div className='h-auto lg:w-full flex-col gap-4'>
           <div className='flex flex-row justify-between items-center w-full'>
             <SectionTitle title={"Nos Actualités"} />
