@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import MinHeader from '../../Components/HeaderComponents/MinHeader'
 import SectionTitle from '../../Components/SectionTitle'
@@ -12,7 +13,7 @@ function Services() {
       description={"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."}
       />
       <div className='z-0 flex flex-col w-full items-center justify-center px-4 gap-8 pb-8 md:pb-10 bg-white'>
-        <div className='max-w-screen-2xl flex items-center z-0'>
+        <div className='max-w-screen-xl flex items-center z-0'>
           <SectionTitle title={"Nos Services"} />
         </div>
         <div className='grid md:grid-cols-3 xl:grid-cols-4 grid-rows-3 gap-6 '>
