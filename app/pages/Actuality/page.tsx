@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
 import MinHeader from '../../Components/HeaderComponents/MinHeader'
@@ -5,6 +6,7 @@ import ActualityBox from '../../Components/ActualityComponents/ActualityBox'
 import Footer from '../../Components/Footer'
 import ContactComponent from '../../Components/ContactComponent'
 import Link from 'next/link'
+import { motion } from "framer-motion";
 
 function Actuality() {
   return (
@@ -13,10 +15,27 @@ function Actuality() {
       title={"Decouvrez toutes les actualités"}
       description={"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."}
       />
-      <div className="w-full md:h-screen h-auto md:flex flex-col items-center justify-center pb-10 md:pb-0">
+      <motion.div
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -20,
+          },
+
+          visible: {
+            opacity: 1,
+            y: 0,
+          },
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 1, delay: 0.5 }}
+        viewport={{ once: true }}
+        className="w-full md:h-screen h-auto md:flex flex-col items-center justify-center pb-10 md:pb-0"
+        >
         <a 
         href=""
-        className='flex md:flex-row flex-col text-left cursor-pointer justify-between items-center w-full max-w-screen-2xl bg-white/50 h-auto px-4 py-2 shadow-md rounded'>
+        className='flex md:flex-row flex-col text-left cursor-pointer justify-between items-center w-full max-w-screen-xl bg-white/50 h-auto px-4 py-2 shadow-md rounded'>
           <Image
           src="/image 12.png"
           width={300}
@@ -51,31 +70,105 @@ function Actuality() {
             
           </div>
         </a>
-        <div className='flex flex-wrap justify-between items-center w-screen max-w-screen-2xl h-auto py-4 gap-2'>
-          <ActualityBox
+        </motion.div>
+        <div className='flex flex-wrap justify-between items-center w-screen max-w-screen-xl h-auto py-4 gap-2'>
+          <motion.div
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
+          ><ActualityBox
             image={"/act-img1.png"}
             badge={"visite"}
             link={"/pages/ActualityItems"}
             title={"Visite de travail d'une délégation gambienne au port autonome"}
             date={"15 Decembre 2024 à 20h05"}
             />
-            <ActualityBox
+          </motion.div>
+          
+          <motion.div
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
+          ><ActualityBox
             image={"/act-img2.png"}
             badge={"Annulation"}
             link={"/pages/ActualityItems"}
             title={"Annulation des frais de magasinage"}
             date={"21 Novembre 2024 à 20h 01"}
             />
-            <ActualityBox
+          </motion.div>
+            
+          <motion.div
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
+          >
+          <ActualityBox
             image={"/act-img3.png"}
             badge={"Séminaire"}
             link={"/pages/ActualityItems"}
             title={"Séminaire annuel du reseau de femmes professionelles."}
             date={"12 Novembre 2024 à 19h 34"}
           />
+          </motion.div>
+            
         </div>
-      </div>
-      <ContactComponent />
+        <motion.div
+          variants={{
+            hidden: {
+              opacity: 0,
+              y: -20,
+            },
+
+            visible: {
+              opacity: 1,
+              y: 0,
+            },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
+          >
+            <ContactComponent />
+          </motion.div>
+      
       <Footer />
     </div>
   )
