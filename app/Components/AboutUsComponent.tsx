@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function AboutUsComponent() {
   return (
-    <div className='bg-white lg:pt-40 flex flex-col items-center justify-center max-w-screen-2xl h-auto p-5 mt-10'>
+    <div className='bg-white lg:pt-40 flex flex-col items-center justify-center max-w-screen-xl h-auto p-5 mt-10'>
       <SectionTitle title={"A propos de nous"} />
       <div className='z-0 flex lg:flex-row flex-col-reverse lg:gap-8 justify-center w-full h-full py-2 lg:min-h-[500px] lg:pb-20 '>
         <div className='z-0 lg:text-left text-center items-center lg:items-start flex flex-col justify-between h-[370px] lg:h-full lg:w-1/2 lg:gap-8 w-auto my-4 lg:py-4'>
